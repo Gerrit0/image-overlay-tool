@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  align-items: flex-start;
+}
+
+#settings, #result {
+  margin: 1em;
+}
+
+#result {
+  width: calc(100vw - 300px - 4em);
+}
+
+#settings {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input:not([type=radio]) {
+  margin: 0.5em;
+  width: 100%;
+}
+
+.thirds-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.thirds-box button {
+  border: 1px solid black;
+  background: white;
+  width: 50px;
+  height: 50px;
+  margin: 0.5em;
+}
+.thirds-box button.selected {
+  background: #01d801;
+}
+.full {
+  display: block;
+}
+
+canvas {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    flex-direction: column;
+  }
+  #setup, #result {
+    width: calc(100vw - 2em);
+  }
+}
