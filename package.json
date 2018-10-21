@@ -1,0 +1,10 @@
+{
+  "name": "image-overlay-tool",
+  "version": "1.0.0",
+  "description": "A tool to quickly overlay a logo or banner on top of a base image.",
+  "main": "index.js",
+  "repository": "https://github.com/gerrit0/image-overlay-tool",
+  "author": "Gerrit Birkeland",
+  "license": "MIT",
+  "private": false
+}
