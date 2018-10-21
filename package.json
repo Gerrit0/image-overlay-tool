@@ -6,5 +6,19 @@
   "repository": "https://github.com/gerrit0/image-overlay-tool",
   "author": "Gerrit Birkeland",
   "license": "MIT",
-  "private": false
+  "devDependencies": {
+    "save-as": "^0.1.8",
+    "ts-loader": "^5.2.2",
+    "tslint-config-standard": "^8.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3",
+    "vue": "^2.5.17",
+    "webpack-cli": "^3.1.2",
+    "webpack": "^4.21.0"
+  },
+  "scripts": {
+    "build": "webpack -c",
+    "build:prod": "webpack -c --mode production",
+    "update-site": "git subtree push --prefix dist origin gh-pages"
+  }
 }
