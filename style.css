@@ -40,6 +40,9 @@ input:not([type=radio]) {
 .full {
   display: block;
 }
+.group {
+  width: 100%;
+}
 
 canvas {
   width: 100%;
